@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d3436;
+    color: #b2bec3;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Poppins', sans-serif;
+    font-family: 400;
+    font-size: 1rem;
+}
